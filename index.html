@@ -4,11 +4,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- TAILWIND CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- FONT AWESOME CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Legal Suluation</title>
 </head>
 
 <body>
+  <header class="max-w-7xl mx-auto mt-12">
+    <nav class="flex justify-between items-center">
+      <div class="flex items-center gap-4">
+        <img src="./images/business.png" alt="">
+        <h1 class="text-4xl font-extrabold">Justice</h1>
+      </div>
 
+      <ul class="flex gap-[30px] text-lg">
+        <li><a href="">Home</a></li>
+        <li><a href="">Services <i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a href="">Cases <i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a href="">Blog <i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a href="">Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+      </ul>
+      <button class="px-[30px] py-[18px] bg-[#B68C5A] text-lg border-none rounded-lg text-[#ffffff] font-semibold">Free
+        Consultation</button>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="mt-[85px] mx-auto"
+      style="background-image: url(./images/banner.png);  background-repeat: no-repeat; max-width: 1280px;">
+      <div>
+        <h1 class="text-center">We Provide Effective Legal Solutions</h1>
+        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have
+          suffered alteration in
+          some form,
+          by injected humour.</p>
+
+        <!-- Banner form -->
+        <div class="flex items-center justify-center">
+          <input type="text" placeholder="Search your services">
+          <button>Search</button>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main></main>
+  <footer></footer>
 </body>
 
 </html>
